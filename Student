@@ -1,0 +1,31 @@
+Package college;
+Public class Record{
+Private String name;
+Private int idNumber;
+Private int contact number;
+Public record() {}
+Public record ( string name, int idNumber, int contactnumber)
+this.name = name;
+this.idNumber = idNumber;
+this.conttactNumber = contactNumber;
+Public int getcontactNumber()
+{Return contactNumber;}
+Public void setcontactNumber(int contactNumber)
+{
+  this.contactNumber = contactNumber;
+}
+Public int get Idnumber() { return idnumber; }
+
+Public void setidnumbet(int idnumber)
+{
+   this.idnumber = idnumber;
+}
+Public string getName() {return Name}
+Public void setName(int name)
+{this.name = nmae;}
+Public void string tostring()
+{
+  return "Records{"
+     + "name=" +name +",idNumber=" +idNumber+",
+ContactNumber =" + contactNumber + "}";
+}
